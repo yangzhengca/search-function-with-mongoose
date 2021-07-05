@@ -1,0 +1,17 @@
+html 
+    head 
+        title Search 
+    body 
+        h1 Choose number of filters 
+        //- show all colletors from database
+        .container 
+            each item in collectors 
+                h2=item.title 
+                h2=item.numberOfFilters
+        //- search collector by numberOfFilters
+        form(method="POST" action="/collectors/result")
+            select(name='numberOfFilters')
+                option(value='70_92') 70_92
+                option(value='136_156') 136_156
+                option(value='200_272') 200_272
+            button(type="submit") Search

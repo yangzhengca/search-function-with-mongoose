@@ -1,0 +1,25 @@
+GET http://localhost:3000/collectors
+
+
+
+###
+POST http://localhost:3000/collectors
+Content-Type: application/json
+
+# {
+#    "title": "70RP and 92RP Collectors",
+#    "numberOfFilters":"70_92"
+# }
+
+# {
+#    "title": "136RP and 156RP Collectors",
+#    "numberOfFilters":"136_156"
+# }
+
+# {
+#    "title": "200RP and 272RP Collectors",
+#    "numberOfFilters":"200_272"
+# }
+
+
+
